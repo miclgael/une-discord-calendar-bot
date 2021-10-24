@@ -88,8 +88,7 @@ for (let i = 0; i < caldata.length; i++) {
         },
         footer: {
           text: "UNE Calendar Bot by Michael Gale",
-          icon_url:
-            "https://raw.githubusercontent.com/miclgael/michaelgale.dev/main/static/favicons/favicon-32x32.png?token=ABA2ELSQ43M2HWHUIT7T5LDBPZB4E",
+          icon_url: process.env.FAVICON_URI,
         },
       },
     ],
