@@ -1,6 +1,12 @@
 # UNE Discord Calendar Bot
 
->
+Discord bot to fetch calendar events and ping the server
+
+---
+
+### Notes
+
+- [Useful info on Decimal color code](https://birdie0.github.io/discord-webhooks-guide/structure/embed/color.html)
 
 ### UNE Event API notes
 
