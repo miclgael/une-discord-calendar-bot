@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UNE//Events//EN
+URL:https://www.une.edu.au/connect/events/feed
+NAME:UNE Events
+X-WR-CALNAME:UNE Events
+DESCRIPTION:University of New England public events calendar
+X-WR-CALDESC:University of New England public events calendar
+BEGIN:VEVENT
+UID:https://www.une.edu.au/connect/events/events/christmas-day
+DTSTART:20211225T000000
+DTEND:20211226T000000
+SUMMARY:Christmas Day
+DESCRIPTION:Official Public Holiday - NSW Wide: \n
+LOCATION:
+CATEGORIES:Academic; Community; Students; Staff; Principal
+END:VEVENT
+BEGIN:VEVENT
+UID:https://www.une.edu.au/connect/events/events/boxing-day
+DTSTART:20211226T000000
+DTEND:20211227T000000
+SUMMARY:Boxing Day
+DESCRIPTION:Official Public Holiday - NSW Wide: \n
+LOCATION:
+CATEGORIES:Academic; Community; Students; Staff; Principal
+END:VEVENT
+END:VCALENDAR
