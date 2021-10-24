@@ -4,11 +4,21 @@ Discord bot to fetch calendar events and ping the server
 
 ---
 
-### Notes
+### Steps
+
+1. `GET` the latest UNE iCal
+2. `Array.filter` iCal to show given date-range (e.g. today + 1 week from now)
+3. Mutate the data to add custom labels and properties
+4. `POST` to discord webhook URI big ole' object with expected parameters `{}`
+5. Write a CRON that will run the app every week and ping the Channel with useful upcoming events for the (e.g.) week
+
+### Useful Notes
 
 - [Useful info on Decimal color code](https://birdie0.github.io/discord-webhooks-guide/structure/embed/color.html)
 
-### UNE Event API notes
+### What doesn't work
+
+It would have been handy to be able to pre-filter using these query-params, like the UNE website does, but that would require parsing html. Easier to just fetch the iCal doc and parse that.
 
 ```txt
 https://www.une.edu.au/connect/events?
